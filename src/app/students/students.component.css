@@ -1,0 +1,9 @@
+.bg-expand {
+  height: 84.3vh;
+  margin: 15px;
+}
+.right-btn {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}

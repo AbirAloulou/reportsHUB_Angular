@@ -1,0 +1,47 @@
+<mat-card-header>
+  <mat-card-title>
+    <h1>{{ report.name }}</h1></mat-card-title
+  >
+  <mat-card-subtitle>
+    <h5>{{ report.date | date }}</h5>
+  </mat-card-subtitle>
+</mat-card-header>
+<mat-divider></mat-divider>
+<mat-card-content>
+  <h2>General information</h2>
+  <div>
+    <h3>Author(s):</h3>
+
+    <p *ngFor="let author of report.authors">
+      {{ author.name + " " + author.lastname + " - " }}
+    </p>
+  </div>
+  <div>
+    <h3>Supervisor:</h3>
+    <p>{{ report.supervisor.name + " " + report.supervisor.lastname }}</p>
+  </div>
+  <div>
+    <h3>Report Type:</h3>
+    <p>{{ report.type }}</p>
+  </div>
+  <h2>Report details</h2>
+  <div>
+    <h3>Resume:</h3>
+    <p>{{ report.resume }}</p>
+  </div>
+  <div>
+    <h3>Abstract:</h3>
+    <p>{{ report.abstract }}</p>
+  </div>
+  <div>
+    <h3>Keywords:</h3>
+    <mat-chip-set>
+      <mat-chip *ngFor="let k of report.keywords">
+        {{ k }}
+      </mat-chip>
+    </mat-chip-set>
+  </div>
+</mat-card-content>
+<mat-card-actions>
+  <button mat-raised-button (click)="close()">Close</button>
+</mat-card-actions>

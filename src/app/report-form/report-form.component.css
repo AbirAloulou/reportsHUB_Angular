@@ -1,0 +1,50 @@
+.mat-card {
+  margin: 10px;
+  height: 80vh;
+  width: 80vh;
+}
+
+.main-container {
+  /* display: flex; */
+  padding: 20px 30px 20px 30px;
+}
+
+.container {
+  /* display: flex; */
+  padding: 20px 30px 20px 30px;
+}
+
+.form-group {
+  margin-right: 10px; /* Optional: Add some space between the form groups */
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mat-card-actions button {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+mat-card-title {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+mat-card-header,
+mat-card-title {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-header,
+mat-card-subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+mat-form-field {
+  width: 100%;
+}

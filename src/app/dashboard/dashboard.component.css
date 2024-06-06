@@ -1,0 +1,51 @@
+.bg-expand {
+  /* height: 88.5vh; */
+  margin: 30px;
+}
+.mat-card {
+  margin: 30px;
+  padding: 40px;
+}
+.mat-card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.little-cards {
+  width: 200px;
+  margin: 20px;
+  background-image: linear-gradient(to bottom right, #eeaeca, #94bbe9);
+}
+.centered-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%; /* Optional: set a height if needed */
+}
+
+.centered-card mat-card-title,
+.centered-card mat-card-content {
+  width: 100%;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around; /* Or use space-between, space-evenly, or flex-start/flex-end based on your requirement */
+  align-items: center;
+  flex-wrap: wrap; /* Optional: allows cards to wrap to the next line on smaller screens */
+  gap: 16px; /* Optional: adds space between the cards */
+}
+
+.charts-cards {
+  /* height: 400px; */
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+}
+
+.horizental-cards {
+  display: flex;
+  flex-direction: column;
+}

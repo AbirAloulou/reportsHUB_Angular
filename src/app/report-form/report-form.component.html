@@ -1,0 +1,120 @@
+<div class="main-container">
+  <mat-card>
+    <mat-card-title>Thank you for sharing your report with us!</mat-card-title>
+
+    <mat-card-subtitle
+      >Please make sure to fill in all necessary fields with the right
+      data.</mat-card-subtitle
+    >
+    <mat-card-subtitle
+      >Please note that all these information can be seen by any member of this
+      institue.</mat-card-subtitle
+    >
+    <mat-card-content>
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="container">
+          <div class="form-group">
+            <mat-form-field>
+              <mat-label>ID</mat-label>
+              <input matInput placeholder="ID" formControlName="id" />
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Date</mat-label>
+              <input matInput [matDatepicker]="date" formControlName="date" />
+              <mat-hint>MM/DD/YYYY</mat-hint>
+              <mat-datepicker-toggle
+                matIconSuffix
+                [for]="date"
+              ></mat-datepicker-toggle>
+              <mat-datepicker #date></mat-datepicker>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Name</mat-label>
+              <input matInput placeholder="Name" formControlName="name" />
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Type</mat-label>
+              <mat-select formControlName="type">
+                <mat-option *ngFor="let type of typeInternship" [value]="type">
+                  {{ type }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Authors</mat-label>
+              <mat-select formControlName="authors" multiple>
+                <mat-option
+                  *ngFor="let author of authorsList"
+                  [value]="author"
+                  >{{ author.name + " " + author.lastname }}</mat-option
+                >
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Supervisor</mat-label>
+              <mat-select formControlName="supervisor" placeholder="Supervisor">
+                <mat-option
+                  *ngFor="let supervisor of professorsList"
+                  [value]="supervisor"
+                >
+                  {{ supervisor.name + " " + supervisor.lastname }}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="form-group">
+            <mat-form-field>
+              <mat-label>Abstract</mat-label>
+              <textarea
+                matInput
+                placeholder="Abstract"
+                formControlName="abstract"
+              ></textarea>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Resume</mat-label>
+              <textarea
+                matInput
+                placeholder="Resume"
+                formControlName="resume"
+              ></textarea>
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>Keywords</mat-label>
+              <mat-chip-grid
+                #chipGrid
+                aria-label="Enter keywords"
+                formControlName="keywords"
+              >
+                <mat-chip-row
+                  *ngFor="let keyword of keywordsList"
+                  (removed)="removeKeyword(keyword)"
+                >
+                  {{ keyword }}
+                  <button matChipRemove aria-label="'remove ' + keyword">
+                    <mat-icon>cancel</mat-icon>
+                  </button>
+                </mat-chip-row>
+              </mat-chip-grid>
+              <input
+                placeholder="New keyword..."
+                [matChipInputFor]="chipGrid"
+                (matChipInputTokenEnd)="add($event)"
+              />
+            </mat-form-field>
+            <mat-form-field>
+              <mat-label>File</mat-label>
+              <input matInput placeholder="File" formControlName="file" />
+            </mat-form-field>
+          </div>
+        </div>
+        <mat-card-actions>
+          <button mat-raised-button color="basic" (click)="close()">
+            Close
+          </button>
+          <button mat-raised-button color="primary" type="submit">Save</button>
+        </mat-card-actions>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

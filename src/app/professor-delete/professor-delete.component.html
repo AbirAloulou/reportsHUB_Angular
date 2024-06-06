@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>
+  Deleting Professor {{ teacher.name }} {{ teacher.lastname }}..
+</h2>
+<mat-dialog-content>
+  Are you sure?
+  <h3 style="color: red">
+    Warning: Once it's deleted, it cannot be recovered.
+  </h3>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-raised-button mat-dialog-close>Cancel</button>
+  <button mat-raised-button color="warn" [mat-dialog-close]="true">
+    DELETE
+  </button>
+</mat-dialog-actions>

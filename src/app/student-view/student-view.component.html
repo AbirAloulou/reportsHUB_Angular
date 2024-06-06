@@ -1,0 +1,37 @@
+<mat-card-header>
+  <mat-card-title>
+    <h1>{{ student.name }} {{ student.lastname }}</h1></mat-card-title
+  >
+  <mat-card-subtitle>
+    <h5>{{ student.email }}</h5>
+  </mat-card-subtitle>
+</mat-card-header>
+<mat-divider></mat-divider>
+<mat-card-content>
+  <h2>Personal information</h2>
+  <div>
+    <h3>CIN:</h3>
+    <p>{{ student.CIN }}</p>
+  </div>
+  <div>
+    <h3>Birthdate:</h3>
+    <p>{{ student.birthdate | date }}</p>
+  </div>
+  <div>
+    <h3>phone:</h3>
+    <p>{{ student.phone }}</p>
+  </div>
+  <mat-divider></mat-divider>
+  <h2>University information</h2>
+  <div>
+    <h3>Inscription Date:</h3>
+    <p>{{ student.inscriptionDate | date }}</p>
+  </div>
+  <div>
+    <h3>Field Of Study:</h3>
+    <p>{{ student.fieldOfStudy }}</p>
+  </div>
+</mat-card-content>
+<mat-card-actions>
+  <button mat-raised-button (click)="close()">Close</button>
+</mat-card-actions>

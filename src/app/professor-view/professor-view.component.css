@@ -1,0 +1,42 @@
+mat-card-title h1 {
+  font-weight: bold;
+  color: #3a86ff;
+}
+
+mat-card-subtitle h5 {
+  color: #669bbc;
+}
+
+mat-card-content h2 {
+  color: #03045e;
+  padding: 10px 0;
+}
+
+mat-card-header,
+mat-card-title,
+mat-card-subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+mat-card-content div {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: flex-start;
+  padding: 5px 0;
+}
+
+mat-card-content div h3 {
+  margin: 0 10px 0 0; /* Add space to the right of the h3 */
+  font-weight: semibold; /* Make the font bold */
+}
+
+mat-card-content div p {
+  margin: 0; /* Ensure no default margin is applied */
+  font-weight: lighter;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: flex-end;
+}

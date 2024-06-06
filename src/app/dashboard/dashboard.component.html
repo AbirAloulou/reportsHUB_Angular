@@ -1,0 +1,65 @@
+<div class="bg-expand">
+  <div class="card-container">
+    <mat-card class="little-cards centered-card">
+      <mat-card-title>Total Reports</mat-card-title>
+      <mat-card-content>
+        <p style="font-size: 45px; margin: 20px; font-weight: bolder">
+          {{ nbReports }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="little-cards centered-card">
+      <mat-card-title>Total Students</mat-card-title>
+      <mat-card-content>
+        <p style="font-size: 45px; margin: 20px; font-weight: bolder">
+          {{ nbStudents }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+    <mat-card class="little-cards centered-card">
+      <mat-card-title>Total Professors</mat-card-title>
+      <mat-card-content>
+        <p style="font-size: 45px; margin: 20px; font-weight: bolder">
+          {{ nbProfessors }}
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
+  <div class="card-container">
+    <mat-card class="charts-cards">
+      <div class="chart-wrapper">
+        <canvas baseChart [type]="'pie'" [datasets]="chartpieData1" [labels]="chartpieLabels1"
+          [options]="chartpieOptions">
+        </canvas>
+      </div>
+    </mat-card>
+    <div class="horizental-cards">
+      <mat-card class="charts-cards">
+        <div class="chart-wrapper">
+          <canvas baseChart [type]="'line'" [datasets]="chartData" [labels]="chartLabels" [options]="chartOptions">
+          </canvas>
+        </div>
+      </mat-card>
+      <mat-card class="charts-cards">
+        <div class="chart-wrapper">
+          <canvas baseChart [type]="'line'" [datasets]="chartData2" [labels]="chartLabels2" [options]="chartOptions2">
+          </canvas>
+        </div>
+      </mat-card>
+    </div>
+    <mat-card class="charts-cards">
+      <div class="chart-wrapper">
+        <canvas baseChart [type]="'bar'" [datasets]="chartBarData" [labels]="chartBarLabels"
+          [options]="chartBarOptions">
+        </canvas>
+      </div>
+    </mat-card>
+    <mat-card class="charts-cards">
+      <div class="chart-wrapper">
+        <canvas baseChart [type]="'pie'" [datasets]="chartpieData2" [labels]="chartpieLabels2"
+          [options]="chartpieOptions2">
+        </canvas>
+      </div>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,468 @@
+{
+  "reports": [
+    {
+      "id": "1",
+      "date": "2024-05-01",
+      "name": "Report on AI in Education",
+      "authors": [
+        {
+          "id": 1,
+          "CIN": "S001",
+          "name": "John",
+          "lastname": "Doe",
+          "birthdate": "2000-01-15",
+          "phone": "123456789",
+          "email": "john.doe@example.com",
+          "password": "password1",
+          "inscriptionDate": "2022-09-01",
+          "fieldOfStudy": "Software Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 1,
+        "CIN": "T001",
+        "name": "Alice",
+        "lastname": "Smith",
+        "birthdate": "1975-03-22",
+        "phone": "987654321",
+        "email": "alice.smith@example.com",
+        "password": "password2",
+        "establishment": "Computer Science"
+      },
+      "abstract": "This report explores the use of AI in education.",
+      "resume": "In-depth study of AI applications in educational settings.",
+      "keywords": ["AI", "Education", "Technology"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "2",
+      "date": "2024-05-02",
+      "name": "Cybersecurity Trends 2024",
+      "authors": [
+        {
+          "id": 2,
+          "CIN": "S002",
+          "name": "Jane",
+          "lastname": "Roe",
+          "birthdate": "1999-11-05",
+          "phone": "123456780",
+          "email": "jane.roe@example.com",
+          "password": "password3",
+          "inscriptionDate": "2021-09-01",
+          "fieldOfStudy": "Computer Science License"
+        }
+      ],
+      "supervisor": {
+        "id": 2,
+        "CIN": "T002",
+        "name": "Bob",
+        "lastname": "Johnson",
+        "birthdate": "1980-06-15",
+        "phone": "987654322",
+        "email": "bob.johnson@example.com",
+        "password": "password4",
+        "establishment": "Computer Science"
+      },
+      "abstract": "An analysis of current trends in cybersecurity.",
+      "resume": "Overview of major cybersecurity trends for the year 2024.",
+      "keywords": ["Cybersecurity", "Trends", "2024"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "3",
+      "date": "2024-05-03",
+      "name": "Sustainable Energy Solutions",
+      "authors": [
+        {
+          "id": 3,
+          "CIN": "S003",
+          "name": "Mike",
+          "lastname": "Williams",
+          "birthdate": "2001-03-10",
+          "phone": "123456781",
+          "email": "mike.williams@example.com",
+          "password": "password5",
+          "inscriptionDate": "2023-01-15",
+          "fieldOfStudy": "Industrial Engineering"
+        },
+        {
+          "id": 6,
+          "CIN": "S006",
+          "name": "Sophia",
+          "lastname": "Martinez",
+          "birthdate": "2002-09-15",
+          "phone": "123456784",
+          "email": "sophia.martinez@example.com",
+          "password": "password11",
+          "inscriptionDate": "2023-09-01",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 3,
+        "CIN": "T003",
+        "name": "Carol",
+        "lastname": "Brown",
+        "birthdate": "1972-09-12",
+        "phone": "987654323",
+        "email": "carol.brown@example.com",
+        "password": "password6",
+        "establishment": "Industrial"
+      },
+      "abstract": "Investigation into sustainable energy solutions.",
+      "resume": "Study on various sustainable energy sources and their implementations.",
+      "keywords": ["Sustainable", "Energy", "Environment"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "4",
+      "date": "2024-05-04",
+      "name": "Blockchain for Supply Chain",
+      "authors": [
+        {
+          "id": 4,
+          "CIN": "S004",
+          "name": "Alice",
+          "lastname": "Green",
+          "birthdate": "2000-05-20",
+          "phone": "123456782",
+          "email": "alice.green@example.com",
+          "password": "password7",
+          "inscriptionDate": "2022-08-15",
+          "fieldOfStudy": "Software Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 4,
+        "CIN": "T004",
+        "name": "David",
+        "lastname": "Clark",
+        "birthdate": "1978-11-02",
+        "phone": "987654324",
+        "email": "david.clark@example.com",
+        "password": "password8",
+        "establishment": "Computer Science"
+      },
+      "abstract": "Exploring the use of blockchain in supply chain management.",
+      "resume": "Detailed analysis of blockchain technology applied to supply chains.",
+      "keywords": ["Blockchain", "Supply Chain", "Technology"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "Initiation Internship"
+    },
+    {
+      "id": "5",
+      "date": "2024-05-05",
+      "name": "Machine Learning in Healthcare",
+      "authors": [
+        {
+          "id": 5,
+          "CIN": "S005",
+          "name": "Chris",
+          "lastname": "Johnson",
+          "birthdate": "1998-07-25",
+          "phone": "123456783",
+          "email": "chris.johnson@example.com",
+          "password": "password9",
+          "inscriptionDate": "2021-05-20",
+          "fieldOfStudy": "Software Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 5,
+        "CIN": "T005",
+        "name": "Emma",
+        "lastname": "Davis",
+        "birthdate": "1985-01-30",
+        "phone": "987654325",
+        "email": "emma.davis@example.com",
+        "password": "password10",
+        "establishment": "Computer Science"
+      },
+      "abstract": "Application of machine learning in healthcare.",
+      "resume": "Comprehensive review of machine learning techniques used in healthcare.",
+      "keywords": ["Machine Learning", "Healthcare", "AI"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFA"
+    },
+    {
+      "id": "6",
+      "date": "2024-05-06",
+      "name": "Climate Change Impact Analysis",
+      "authors": [
+        {
+          "id": 6,
+          "CIN": "S006",
+          "name": "Sophia",
+          "lastname": "Martinez",
+          "birthdate": "2002-09-15",
+          "phone": "123456784",
+          "email": "sophia.martinez@example.com",
+          "password": "password11",
+          "inscriptionDate": "2023-09-01",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 6,
+        "CIN": "T006",
+        "name": "James",
+        "lastname": "Martinez",
+        "birthdate": "1979-04-25",
+        "phone": "987654326",
+        "email": "james.martinez@example.com",
+        "password": "password12",
+        "establishment": "Industrial"
+      },
+      "abstract": "Assessing the impact of climate change.",
+      "resume": "Study focused on the various impacts of climate change globally.",
+      "keywords": ["Climate Change", "Impact", "Environment"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "7",
+      "date": "2024-05-07",
+      "name": "Advancements in Renewable Energy",
+      "authors": [
+        {
+          "id": 7,
+          "CIN": "S007",
+          "name": "Liam",
+          "lastname": "Rodriguez",
+          "birthdate": "1997-12-10",
+          "phone": "123456785",
+          "email": "liam.rodriguez@example.com",
+          "password": "password13",
+          "inscriptionDate": "2020-02-15",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": 7,
+        "CIN": "T007",
+        "name": "Olivia",
+        "lastname": "Garcia",
+        "birthdate": "1983-08-14",
+        "phone": "987654327",
+        "email": "olivia.garcia@example.com",
+        "password": "password14",
+        "establishment": "Computer Science"
+      },
+      "abstract": "Exploring advancements in renewable energy technologies.",
+      "resume": "Review of recent advancements in renewable energy.",
+      "keywords": ["Renewable Energy", "Advancements", "Technology"],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "CIN": "S001",
+      "name": "John",
+      "lastname": "Doe",
+      "birthdate": "2000-01-15",
+      "phone": "123456789",
+      "email": "john.doe@example.com",
+      "password": "password1",
+      "fieldOfStudy": "Business",
+      "inscriptionDate": "2022-09-01"
+    },
+    {
+      "id": "2",
+      "CIN": "S002",
+      "name": "Jane",
+      "lastname": "Roe",
+      "birthdate": "1999-11-05",
+      "phone": "123456780",
+      "email": "jane.roe@example.com",
+      "password": "password3",
+      "fieldOfStudy": "Computer Science License",
+      "inscriptionDate": "2021-09-01"
+    },
+    {
+      "id": "3",
+      "CIN": "S003",
+      "name": "Mike",
+      "lastname": "Williams",
+      "birthdate": "2001-03-10",
+      "phone": "123456781",
+      "email": "mike.williams@example.com",
+      "password": "password5",
+      "inscriptionDate": "2023-01-15",
+      "fieldOfStudy": "Industrial Engineering"
+    },
+    {
+      "id": "4",
+      "CIN": "S004",
+      "name": "Alice",
+      "lastname": "Green",
+      "birthdate": "2000-05-20",
+      "phone": "123456782",
+      "email": "alice.green@example.com",
+      "password": "password7",
+      "inscriptionDate": "2022-08-15",
+      "fieldOfStudy": "Software Engineering"
+    },
+    {
+      "id": "5",
+      "CIN": "S005",
+      "name": "Chris",
+      "lastname": "Johnson",
+      "birthdate": "1998-07-25",
+      "phone": "123456783",
+      "email": "chris.johnson@example.com",
+      "password": "password9",
+      "inscriptionDate": "2021-05-20",
+      "fieldOfStudy": "Software Engineering"
+    },
+    {
+      "id": "6",
+      "CIN": "S006",
+      "name": "Sophia",
+      "lastname": "Martinez",
+      "birthdate": "2002-09-15",
+      "phone": "123456784",
+      "email": "sophia.martinez@example.com",
+      "password": "password11",
+      "inscriptionDate": "2023-09-01",
+      "fieldOfStudy": "Industrial Engineering"
+    },
+    {
+      "id": "7",
+      "CIN": "S007",
+      "name": "Abir",
+      "lastname": "Aloulou",
+      "birthdate": "2000-06-19",
+      "phone": "123456785",
+      "email": "abiraloulou5@gmail.com",
+      "password": "password13",
+      "inscriptionDate": "2020-02-15",
+      "fieldOfStudy": "Industrial Engineering"
+    },
+    {
+      "id": "999",
+      "CIN": "123",
+      "name": "bbbbb",
+      "lastname": "aaa",
+      "birthdate": "2024-06-17T23:00:00.000Z",
+      "phone": "123456",
+      "email": "aa@gg.com",
+      "password": "12345",
+      "fieldOfStudy": "Industrial Engineering",
+      "inscriptionDate": "2024-06-17T23:00:00.000Z"
+    }
+  ],
+  "supervisors": [
+    {
+      "id": "1",
+      "CIN": "T001",
+      "name": "Alice",
+      "lastname": "Smith",
+      "birthdate": "1975-03-22",
+      "phone": "987654321",
+      "email": "alice.smith@example.com",
+      "password": "password2",
+      "establishment": "Computer Science"
+    },
+    {
+      "id": "2",
+      "CIN": "T002",
+      "name": "Bob",
+      "lastname": "Johnson",
+      "birthdate": "1980-06-15",
+      "phone": "987654322",
+      "email": "bob.johnson@example.com",
+      "password": "password4",
+      "establishment": "Business"
+    },
+    {
+      "id": "3",
+      "CIN": "T003",
+      "name": "Carol",
+      "lastname": "Brown",
+      "birthdate": "1972-09-12",
+      "phone": "987654323",
+      "email": "carol.brown@example.com",
+      "password": "password6",
+      "establishment": "Industrial"
+    },
+    {
+      "id": "4",
+      "CIN": "T004",
+      "name": "David",
+      "lastname": "Clark",
+      "birthdate": "1978-11-02",
+      "phone": "987654324",
+      "email": "david.clark@example.com",
+      "password": "password8",
+      "establishment": "Computer Science"
+    },
+    {
+      "id": "5",
+      "CIN": "T005",
+      "name": "Emma",
+      "lastname": "Davis",
+      "birthdate": "1985-01-30",
+      "phone": "987654325",
+      "email": "emma.davis@example.com",
+      "password": "password10",
+      "establishment": "Computer Science"
+    },
+    {
+      "id": "6",
+      "CIN": "T006",
+      "name": "James",
+      "lastname": "Martinez",
+      "birthdate": "1979-04-25",
+      "phone": "987654326",
+      "email": "james.martinez@example.com",
+      "password": "password12",
+      "establishment": "Industrial"
+    },
+    {
+      "id": "7",
+      "CIN": "T007",
+      "name": "Olivia",
+      "lastname": "Garcia",
+      "birthdate": "1983-08-14",
+      "phone": "987654327",
+      "email": "olivia.garcia@example.com",
+      "password": "password14",
+      "establishment": "Computer Science"
+    },
+    {
+      "id": "8",
+      "CIN": "T008",
+      "name": "Haytham",
+      "lastname": "Gharam",
+      "birthdate": "1998-08-10T23:00:00.000Z",
+      "phone": "26788446",
+      "email": "haytham@gg.com",
+      "password": "haytham",
+      "establishment": "Computer Science"
+    },
+    {
+      "id": "9",
+      "CIN": "T001",
+      "name": "Alice",
+      "lastname": "Smith",
+      "birthdate": "1975-03-22",
+      "phone": "987654321",
+      "email": "a@a",
+      "password": "a",
+      "establishment": "Computer Science"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@gg",
+      "password": "admin"
+    }
+  ]
+}

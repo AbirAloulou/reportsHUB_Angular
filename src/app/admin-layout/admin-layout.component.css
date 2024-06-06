@@ -1,0 +1,32 @@
+/* mat-nav-list div a {
+  display: flex;
+  align-items: center;
+}
+
+mat-nav-list div a mat-icon {
+  margin-right: 8px; 
+} */
+
+.aligned-content {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Optional: removes underline from the link */
+}
+
+.aligned-content mat-icon {
+  margin-right: 8px; /* Adjust the spacing between the icon and the text as needed */
+  display: flex;
+  align-items: center;
+}
+
+.aligned-content span {
+  margin: 0; /* Removes default margin from the paragraph */
+  display: flex;
+  align-items: center;
+}
+
+.align-right {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}

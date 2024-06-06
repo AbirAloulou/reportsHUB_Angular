@@ -9,6 +9,7 @@ import { ReportFormComponent } from './report-form/report-form.component';
 import { LoginComponent } from './login/login.component';
 import { authGuard } from 'src/Auth.guard';
 import { AdminLayoutComponent } from './admin-layout/admin-layout.component';
+import { SupervisorTemplateComponent } from './supervisor-template/supervisor-template.component';
 
 const routes: Routes = [
   {
@@ -61,6 +62,12 @@ const routes: Routes = [
       },
     ],
   },
+  {
+    path: 'HiSupervisor',
+    pathMatch: 'full',
+    component: SupervisorTemplateComponent,
+  },
+
   { path: 'login', pathMatch: 'full', component: LoginComponent },
 ];
 

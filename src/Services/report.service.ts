@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { Report } from 'src/Models/Report';
 
 @Injectable({
@@ -30,6 +30,13 @@ export class ReportService {
     return this.httpClient.post<Report>(
       `http://localhost:3000/reports`,
       report
+    );
+  }
+  getReportsOfProfessor(professorId: number): Observable<any[]> {
+    return this.getReports().pipe(
+      map((reports) =>
+        reports.filter((report) => report.supervisor.id === professorId)
+      )
     );
   }
 }

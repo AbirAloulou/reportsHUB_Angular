@@ -45,6 +45,7 @@ import { ReportFormComponent } from './report-form/report-form.component';
 import { ReportViewComponent } from './report-view/report-view.component';
 import { LoginComponent } from './login/login.component';
 import { AdminInterfaceComponent } from './admin-interface/admin-interface.component';
+import { SupervisorTemplateComponent } from './supervisor-template/supervisor-template.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +67,7 @@ import { AdminInterfaceComponent } from './admin-interface/admin-interface.compo
     ReportViewComponent,
     LoginComponent,
     AdminInterfaceComponent,
+    SupervisorTemplateComponent,
   ],
   imports: [
     CommonModule,

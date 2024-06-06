@@ -31,7 +31,11 @@
       },
       "abstract": "This report explores the use of AI in education.",
       "resume": "In-depth study of AI applications in educational settings.",
-      "keywords": ["AI", "Education", "Technology"],
+      "keywords": [
+        "AI",
+        "Education",
+        "Technology"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFE"
     },
@@ -66,7 +70,11 @@
       },
       "abstract": "An analysis of current trends in cybersecurity.",
       "resume": "Overview of major cybersecurity trends for the year 2024.",
-      "keywords": ["Cybersecurity", "Trends", "2024"],
+      "keywords": [
+        "Cybersecurity",
+        "Trends",
+        "2024"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFE"
     },
@@ -113,7 +121,11 @@
       },
       "abstract": "Investigation into sustainable energy solutions.",
       "resume": "Study on various sustainable energy sources and their implementations.",
-      "keywords": ["Sustainable", "Energy", "Environment"],
+      "keywords": [
+        "Sustainable",
+        "Energy",
+        "Environment"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFE"
     },
@@ -148,7 +160,11 @@
       },
       "abstract": "Exploring the use of blockchain in supply chain management.",
       "resume": "Detailed analysis of blockchain technology applied to supply chains.",
-      "keywords": ["Blockchain", "Supply Chain", "Technology"],
+      "keywords": [
+        "Blockchain",
+        "Supply Chain",
+        "Technology"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "Initiation Internship"
     },
@@ -183,7 +199,11 @@
       },
       "abstract": "Application of machine learning in healthcare.",
       "resume": "Comprehensive review of machine learning techniques used in healthcare.",
-      "keywords": ["Machine Learning", "Healthcare", "AI"],
+      "keywords": [
+        "Machine Learning",
+        "Healthcare",
+        "AI"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFA"
     },
@@ -218,7 +238,11 @@
       },
       "abstract": "Assessing the impact of climate change.",
       "resume": "Study focused on the various impacts of climate change globally.",
-      "keywords": ["Climate Change", "Impact", "Environment"],
+      "keywords": [
+        "Climate Change",
+        "Impact",
+        "Environment"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFE"
     },
@@ -253,9 +277,141 @@
       },
       "abstract": "Exploring advancements in renewable energy technologies.",
       "resume": "Review of recent advancements in renewable energy.",
-      "keywords": ["Renewable Energy", "Advancements", "Technology"],
+      "keywords": [
+        "Renewable Energy",
+        "Advancements",
+        "Technology"
+      ],
       "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
       "type": "PFE"
+    },
+    {
+      "id": "7",
+      "date": "2024-05-07",
+      "name": "Advancements in Renewable Energy PART 2",
+      "authors": [
+        {
+          "id": 7,
+          "CIN": "S007",
+          "name": "Liam",
+          "lastname": "Rodriguez",
+          "birthdate": "1997-12-10",
+          "phone": "123456785",
+          "email": "liam.rodriguez@example.com",
+          "password": "password13",
+          "inscriptionDate": "2020-02-15",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": "9",
+        "CIN": "T001",
+        "name": "Alice",
+        "lastname": "Smith",
+        "birthdate": "1975-03-22",
+        "phone": "987654321",
+        "email": "a@a",
+        "password": "a",
+        "establishment": "Computer Science"
+      },
+      "abstract": "Exploring advancements in renewable energy technologies.",
+      "resume": "Review of recent advancements in renewable energy.",
+      "keywords": [
+        "Renewable Energy",
+        "Advancements",
+        "Technology"
+      ],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "7",
+      "date": "2024-05-07",
+      "name": "Advancements in Renewable Energy PART3",
+      "authors": [
+        {
+          "id": 7,
+          "CIN": "S007",
+          "name": "Liam",
+          "lastname": "Rodriguez",
+          "birthdate": "1997-12-10",
+          "phone": "123456785",
+          "email": "liam.rodriguez@example.com",
+          "password": "password13",
+          "inscriptionDate": "2020-02-15",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": "9",
+        "CIN": "T001",
+        "name": "Alice",
+        "lastname": "Smith",
+        "birthdate": "1975-03-22",
+        "phone": "987654321",
+        "email": "a@a",
+        "password": "a",
+        "establishment": "Computer Science"
+      },
+      "abstract": "Exploring advancements in renewable energy technologies.",
+      "resume": "Review of recent advancements in renewable energy.",
+      "keywords": [
+        "Renewable Energy",
+        "Advancements",
+        "Technology"
+      ],
+      "file": "https://res.cloudinary.com/da4fhullk/image/upload/v1717244461/ReportsHub%20-%20Angular/AbirAloulouCv_smolgr.pdf",
+      "type": "PFE"
+    },
+    {
+      "id": "98765",
+      "date": "2024-06-05T23:00:00.000Z",
+      "name": "project angular - reports hub",
+      "authors": [
+        {
+          "id": "2",
+          "CIN": "S002",
+          "name": "Jane",
+          "lastname": "Roe",
+          "birthdate": "1999-11-05",
+          "phone": "123456780",
+          "email": "jane.roe@example.com",
+          "password": "password3",
+          "fieldOfStudy": "Computer Science License",
+          "inscriptionDate": "2021-09-01"
+        },
+        {
+          "id": "3",
+          "CIN": "S003",
+          "name": "Mike",
+          "lastname": "Williams",
+          "birthdate": "2001-03-10",
+          "phone": "123456781",
+          "email": "mike.williams@example.com",
+          "password": "password5",
+          "inscriptionDate": "2023-01-15",
+          "fieldOfStudy": "Industrial Engineering"
+        }
+      ],
+      "supervisor": {
+        "id": "12345",
+        "CIN": "12345",
+        "name": "Abir",
+        "lastname": "Aloulou",
+        "birthdate": "2000-06-18T23:00:00.000Z",
+        "phone": "23568945",
+        "email": "abir@gg",
+        "password": "abir",
+        "establishment": "Business"
+      },
+      "abstract": "azerty",
+      "resume": "azerty",
+      "keywords": [
+        "azerty",
+        "qwerty"
+      ],
+      "file": "azerty",
+      "type": "Initiation Internship"
     }
   ],
   "students": [
@@ -455,6 +611,17 @@
       "email": "a@a",
       "password": "a",
       "establishment": "Computer Science"
+    },
+    {
+      "id": "12345",
+      "CIN": "12345",
+      "name": "Abir",
+      "lastname": "Aloulou",
+      "birthdate": "2000-06-18T23:00:00.000Z",
+      "phone": "23568945",
+      "email": "abir@gg",
+      "password": "abir",
+      "establishment": "Business"
     }
   ],
   "admins": [
